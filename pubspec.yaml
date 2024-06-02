@@ -1,0 +1,73 @@
+name: kajian_sunnah_hsi
+description: "A new Flutter project."
+
+# Prevent accidental publishing to pub.dev.
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.3.3 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  flutter_localizations:
+    sdk: flutter
+
+  flutter_bloc: ^8.1.5
+
+  equatable: ^2.0.5
+
+  get_it: ^7.7.0
+
+  intl: ^0.18.1
+
+  #for drift purposes
+  drift: ^2.18.0
+  sqlite3_flutter_libs: ^0.5.0
+  path_provider: ^2.0.0
+  path: ^1.9.0
+
+  dio: ^5.4.3+1
+
+  retrofit: ">=4.0.0 <5.0.0"
+  logger: any #for logging purpose
+  json_annotation: ^4.8.1
+
+  flutter_hooks: "^0.20.5"
+
+  cached_network_image: ^3.3.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.0
+
+  retrofit_generator: ">=7.0.0 <8.0.0" #required dart >=2.19
+  build_runner: ">=2.3.0 <4.0.0"
+  json_serializable: ^6.6.2
+  drift_dev: ^2.18.0
+
+flutter:
+  uses-material-design: true
+
+  # Enable generation of localized Strings from arb files.
+  generate: true
+
+  assets:
+    # Add assets from the images directory to the application.
+    - assets/images/
+
+  # fonts:
+  #   - family: Poppins
+  #     fonts:
+  #       - asset: assets/fonts/Poppins-Regular.ttf
+  #       - asset: assets/fonts/Poppins-Bold.ttf
+  #       - asset: assets/fonts/Poppins-Medium.ttf
+  #       - asset: assets/fonts/Poppins-SemiBold.ttf
+  #       - asset: assets/fonts/Poppins-Light.ttf
+  #       - asset: assets/fonts/Poppins-ExtraLight.ttf
+  #       - asset: assets/fonts/Poppins-Thin.ttf
